@@ -2,9 +2,9 @@
 ### Node Package Manager (npm)
 
 1. It should come with the Node.js installables. Check if it's installed. `npm --version`
-2. Install modules using `npm` locally. Installing module `express` in this example.
+2. Install modules using `npm`. Installing module `express` in this example.
 
-	`npm install express`
+	`npm install express` (This will only install the module locally, where your current directory is.)
 
 	Then you can use the `express` module in your js file in the same folder where the module is installed.
 
