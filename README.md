@@ -1,9 +1,10 @@
-# Tutorial 3
-### REPL
+# Node.js
 
-Similar with what python does in command line.
-More in [here](http://www.tutorialspoint.com/nodejs/nodejs_repl_terminal.htm).
+Following some Node.js tutorials
+### List of Tutorials
+* [Tutorial 3](Tutorial3/) - REPL
+* [Tutorial 2](Tutorial2/) - server.js
+* [Tutorial 1](Tutorial1/) - Hello World
 
-[Tutorial 2](https://github.com/shane030716/node-js/tree/tutorial-2)
 
-[List of Tutorials](https://github.com/shane030716/node-js/blob/master/Tutorials.md)
+The tutorials are based from [here](http://www.tutorialspoint.com/nodejs/index.htm)
