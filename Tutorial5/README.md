@@ -13,7 +13,7 @@ A function that will be called at the completion of given task. (Similar to call
     2. `Program Ended`
 
 
-2. Non-Blocking Code
+2. Non-Blocking Code using callback
 
     See [`input.txt`](input.txt) and [`main.js`](main.js)
 
