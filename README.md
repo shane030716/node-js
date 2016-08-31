@@ -1,12 +1,9 @@
-# Tutorial 2
-### Create a http server with node.js
+# Node.js
 
-1. Create [server.js](server.js)
-	1. Import `http` module
-	2. Create server
-4. Run on terminal `node server.js`
-5. Enter `localhost:8888` in browser.
+Following some Node.js tutorials
+### List of Tutorials
+* [Tutorial 2](Tutorial2/) - server.js
+* [Tutorial 1](Tutorial1/)
 
-[Tutorial 1](https://github.com/shane030716/node-js/tree/tutorial-1)
 
-[List of Tutorials](https://github.com/shane030716/node-js/blob/master/Tutorials.md)
+The tutorials are based from [here](http://www.tutorialspoint.com/nodejs/index.htm)
