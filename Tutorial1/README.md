@@ -4,4 +4,4 @@
 2. Create helloworld.js
 3. Run it on terminal `node helloworld.js`
 
-[List of Tutorials](https://github.com/shane030716/node-js/blob/master/Tutorials.md)
+[List of Tutorials](https://github.com/shane030716/node-js)
