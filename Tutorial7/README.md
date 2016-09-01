@@ -34,4 +34,8 @@ Events
 
 See [main.js](main.js)
 
+Move description [here](http://www.tutorialspoint.com/nodejs/nodejs_event_emitter.htm)
+
+[Full official documentation](https://nodejs.org/api/events.html#events_class_eventemitter)
+
 [List of Tutorials](https://github.com/shane030716/node-js)
