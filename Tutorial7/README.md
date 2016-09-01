@@ -11,6 +11,7 @@ var eventEmitter = new events.EventEmitter();
 ```
 
 A list of instance methods
+
 1. `addListener(event, listener)`
 2. `on(event, listener)`
 3. `once(event, listener)`
@@ -21,9 +22,11 @@ A list of instance methods
 8. `emit(event, [arg1], [arg2], [...])`
 
 Class (static) method
+
 1. `listenerCount(emitter, event)`
 
 Events
+
 1. newListener
     * event
     * listener
