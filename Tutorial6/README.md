@@ -2,7 +2,7 @@
 
 ### Event Loop
 
-While Events seems similar to what callbacks are. The difference lies in the fact that callback functions are called when an asynchronous function returns its result where as event handling works on the observer pattern. The functions which listens to events acts as Observers. Whenever an event gets fired, its listener function starts executing. Node.js has multiple in-built events available through events module and EventEmitter class which is used to bind events and event listeners as follows:
+While Events seems similar to what callbacks are. The difference lies in the fact that callback functions are called when **an asynchronous function returns its result** where as event handling works on the **observer pattern**. The functions which listens to events acts as Observers. Whenever an event gets fired, its listener function starts executing. Node.js has multiple in-built events available through events module and EventEmitter class which is used to bind events and event listeners as follows:
 
 ```
 // Import events module
