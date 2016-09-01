@@ -23,4 +23,6 @@ We can fire an event programatically as follows:
 eventEmitter.emit('eventName');
 ```
 
+See [main.js](main.js)
+
 [List of Tutorials](https://github.com/shane030716/node-js)
