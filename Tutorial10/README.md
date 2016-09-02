@@ -5,11 +5,8 @@
 #### Synchronous vs Asynchronous
 
 Asynchronous:
-```
-fs.readFile(fileName, function(err, data){
-	// handle data and err	
-})
-```
+
+`fs.readFile(fileName, function(err, data){})`
 
 Synchronous:
 
@@ -21,7 +18,7 @@ See [asynchronous.js](asynchronous.js)
 
 Syntax:
 
-`fs.open(path, flags[, mode], callback)`
+`fs.open(path, flags[, mode], callback(err, fd){})`
 
 Parameters:
 
@@ -87,3 +84,34 @@ Parameters:
 * `callback` - This is the callback function which gets a single parameter `err` and used to return error in case of any writing error.
 
 See [writingFile.js](writingFile.js)
+
+#### Reading File
+
+Syntax:
+
+`fs.read(fd, buffer, offset, length, position, callback(err, btyesRead, buffer){})`
+
+Parameters:
+* `fd` - This is the file descriptor returned by file `fs.open()` method.
+* `buffer` - This is the buffer that the data will be writtern to.
+* `offset` - This is the offset in the buffer to start writing at.
+* `length` - This is an integer specifying the number of **bytes** to read.
+* `position` - This is an integer specifying where to begin reading from in the file. If position is null, data will be read from the current file position.
+* `callback` - This is the callback function which gets the three arguments `(err, bytesRead, buffer)`
+
+See [readFile.js](readFile.js)
+
+*(At this point, I'm having a question. When should we use `fs.readFile` and when should we use `fs.open` & `fs.read` ?)*
+
+#### Closing File
+
+Syntax:
+
+`fs.close(fd, callback(err){})`
+
+Parameters:
+
+* `fd` - This is the file descriptor returned by file fs.open().
+* `callback` - This is the callback function which has only one argument `err`.
+
+See [closeFile.js](closeFile.js)
