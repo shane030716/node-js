@@ -76,10 +76,52 @@ Syntax:
 
 Parameters:
 
-* `otherBuffer` - This is the other buffer which will be compared with *buf*
+* `otherBuffer` - This is the other buffer which will be compared with **buf**
 
 Return Value:
 
 Returns a number indicating whether this comes before or after or is the same as the otherBuffer in sort order. (Similar to Java's `compareTo` function in `Comparable` classes.)
 
-See //Compare Buffers in [main.js](main.js)
+See `//Compare Buffers` in [main.js](main.js)
+
+#### Copy Buffer
+Syntax:
+
+`buf.copy(targetBuffer[, targetStart][, sourceStart][, sourceEnd])`
+
+Parameters:
+
+* `targetBuffer` - Buffer object where buffer will be copied to.
+* `targetStart` - Number, Optional, Default: 0. I assume it's the index in the `targetBuffer` to start copy
+* `sourceStart` - Number, Optional, Default: 0. I assume it's the start index of the source buffer `buf` to be copied
+* `sourceEnd` - Number, Optional, Default: buffer.length. I assume it's the end index of the source buffer `buf`
+
+Return Value:
+
+No return value. Copies data from a region of this buffer to a region in the target buffer **even if the target memory regions overlaps in the source** *(What does this mean?)*. If undefined the targetStart and sourceStart parameters default to 0 while sourceEnd defaults to buffer.length
+
+See `//Copy Buffer` in [main.js](main.js)
+
+#### Slice Buffer
+Syntax:
+
+`buf.slice([start][, end])`
+
+Parameters:
+
+* `start` - Number, Optional, Default: 0
+* `end` - Number, Optional, Default: 0
+
+Return Value:
+
+Returns a new buffer **which references the same memory as the old**, but offset and cropped by the start (defaults to 0) and end (defaults to buffer.length) indexes.. **Negative indexes start from the end of the buffer**.
+
+See `// Buffer` in [main.js](main.js)
+
+#### Buffer Length
+`buf.length`
+
+#### More
+More methods in [here](http://www.tutorialspoint.com/nodejs/nodejs_buffers.htm)
+
+[Official Nodejs Buffer Documentation](https://nodejs.org/api/buffer.html)
