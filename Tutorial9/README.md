@@ -22,4 +22,22 @@ See and run [readStream.js](readStream.js) and [input.txt](input.txt)
 
 #### Writing to Stream
 
+Delete `ouput.txt` if it exists
+
 See and run [writeStream.js](writeStream.js), and then see [output.txt](output.txt)
+
+#### Piping streams
+
+Piping is a mechanism where we provided output of one stream as the input to another stream.
+
+Delete `piping-out.txt` if it exists
+
+See and run [pipingStreams.js](pipingStreams.js), and then see [piping-output.txt](piping-output.txt)
+
+#### Chaining streams
+
+Chaining is a mechanism to connect output of one stream to another stream and create a chain of multiple stream operations.
+
+Delete `chaining-output.txt.gz` and `non-chaining-output.txt.gz` if they exist
+
+See [chainingStreams.js](chainingStreams.js) for both the chaining and non-chaining versions, then run it. After that, extract [chaining-output.txt.gz](chaining-output.txt.gz) and [non-chaining-output.txt.gz](non-chaining-output.txt.gz)
