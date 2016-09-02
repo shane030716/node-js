@@ -12,9 +12,13 @@ fs.createReadStream("chaining-input.txt")
 	.pipe(fs.createWriteStream("chaining-output.txt.gz"));
 
 
+console.log("File compressed to chaining-output.txt.gz using chaining");
+
 //without chaining
 var readerStream = fs.createReadStream("chaining-input.txt");
 var gzip = zlib.createGzip();
 readerStream.pipe(gzip);
 var writerStream = fs.createWriteStream("non-chaining-output.txt.gz");
 gzip.pipe(writerStream);
+
+console.log("File compressed to non-chaining-output.txt.gz without using chaining");
