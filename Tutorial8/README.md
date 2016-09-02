@@ -48,3 +48,38 @@ Return Value:
 This method decodes and returns a string from buffer data encoded using the specified character set encoding.
 See `//Reading from Buffers` in [main.js](main.js)
 
+#### Convert Buffer to JSON
+use `buf.toJSON()`
+
+See `//Convert Buffer to JSON` in [main.js](main.js)
+
+#### Concatenate Buffers
+Syntax:
+
+`Buffer.concat(list[, totalLength])`
+
+Parameters:
+
+* `list` - Array List of Buffer objects to be concatenated
+* `totalLength` - This is the total length of the buffers when concatenated
+
+Return Value:
+
+This method returns the concatenated Buffer instance
+
+See `//Concatenate Buffers` in [main.js](main.js)
+
+#### Compare Buffers
+Syntax:
+
+`buf.compare(otherBuffer);`
+
+Parameters:
+
+* `otherBuffer` - This is the other buffer which will be compared with *buf*
+
+Return Value:
+
+Returns a number indicating whether this comes before or after or is the same as the otherBuffer in sort order. (Similar to Java's `compareTo` function in `Comparable` classes.)
+
+See //Compare Buffers in [main.js](main.js)
