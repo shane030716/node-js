@@ -115,3 +115,75 @@ Parameters:
 * `callback` - This is the callback function which has only one argument `err`.
 
 See [closeFile.js](closeFile.js)
+
+#### Truncate File
+
+Syntax: 
+
+`fs.ftruncate(fd, len, callback(err){})`
+
+Parameters:
+
+* `fd` - This is the file descriptor returned by file fs.open() method
+* `len` - This is the length of the file after which file be truncated
+* `callback` - This is the callback function which has only `err` argument
+
+See [truncateFile.js](truncateFile.js)
+
+#### Delete File
+
+Syntax: 
+
+`fs.unlink`(path, callback(err){})`
+
+Paramters:
+
+* `path` - This is the file name including path
+* `callback` - Callback function with only the `err` argument
+
+See [deleteFile.js](deleteFile.js)
+
+#### Create Directory
+
+Syntax:
+
+`fs.mkdir(path[, mode], callback(err){})`
+
+Parameters:
+
+* `path` - This is the directory name including path.
+* `mode` - This is the directory permission to be set. Defaults to be 0777.
+* `callback` - This is the callback function which has only the `err` argument.
+
+See [createDirectory.js](createdDirectory.js)
+
+#### Read Directory
+
+Syntax:
+
+`fs.readdir(path, callback(err, files){})`
+
+Parameters:
+* `path` - This is the directory name inclduing path.
+* `callback` - This is the callback function which gets two arguments `(err, files)` where files is an array of the names of the files in the directory excluding "." and "..".
+
+See [readDirectory.js](readDicectory.js)
+
+#### Remove Directory
+
+Syntax:
+
+`fs.rmdir(path, callback(err){})`
+
+Parameters:
+
+* `path` - This is the directory name including path.
+* `callback` - Callback function with only the `err` argument.
+
+See [removeDirectory.js](removeDirectory.js);
+
+More methods in the Methods Reference section in [here](http://www.tutorialspoint.com/nodejs/nodejs_file_system.htm)
+
+[Official documentation for File System](https://nodejs.org/api/fs.html)
+
+[List of Tutorials](https://github.com/shane030716/node-js)

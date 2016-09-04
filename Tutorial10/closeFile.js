@@ -30,7 +30,7 @@ fs.open("input.txt", "r+", function(err, fd) {
 		//Close the opened file
 		fs.close(fd, function(err) {
 			if (err) {
-				console.error(err);
+				return console.error(err);
 			}
 
 			console.log("File closed successfully");
