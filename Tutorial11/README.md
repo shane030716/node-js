@@ -1,6 +1,6 @@
 # Tutorial 11
 
-### Global Object
+### Global Objects
 
 Node.js global objects are available in all modules. We can use them directly.
 
