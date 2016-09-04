@@ -23,4 +23,4 @@ A function that will be called at the completion of given task. (Similar to call
     1. `Program Ended`
     2. text in input.txt
 
-[List of Tutorials](https://github.com/shane030716/node-js)
+[List of Tutorials](https://github.com/shane030716/node-js#list-of-tutorials)

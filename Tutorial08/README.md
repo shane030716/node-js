@@ -15,8 +15,6 @@ create a buffer from a given string and optionally encoding type (eg. "ascii", "
 
 `var buf = new Buffer("Learning Node.js", "utf-8");`
 
-[List of Tutorials](https://github.com/shane030716/node-js)
-
 #### Writing to Buffers
 Syntax:
 
@@ -125,3 +123,5 @@ See `// Buffer` in [main.js](main.js)
 More methods in [here](http://www.tutorialspoint.com/nodejs/nodejs_buffers.htm)
 
 [Official Nodejs Buffer Documentation](https://nodejs.org/api/buffer.html)
+
+[List of Tutorials](https://github.com/shane030716/node-js#list-of-tutorials)
