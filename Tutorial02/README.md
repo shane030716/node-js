@@ -7,5 +7,5 @@
 4. Run on terminal `node server.js`
 5. Enter `localhost:8888` in browser.
 
-[List of Tutorials](https://github.com/shane030716/node-js)
+[List of Tutorials](https://github.com/shane030716/node-js#list-of-tutorials)
 

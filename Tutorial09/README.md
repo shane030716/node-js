@@ -42,4 +42,4 @@ Delete `chaining-output.txt.gz` and `non-chaining-output.txt.gz` if they exist
 
 See [chainingStreams.js](chainingStreams.js) for both the chaining and non-chaining versions, then run it. After that, extract [chaining-output.txt.gz](chaining-output.txt.gz) and [non-chaining-output.txt.gz](non-chaining-output.txt.gz)
 
-[List of Tutorials](https://github.com/shane030716/node-js)
+[List of Tutorials](https://github.com/shane030716/node-js#list-of-tutorials)
