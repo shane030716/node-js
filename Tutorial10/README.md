@@ -2,6 +2,30 @@
 
 ### File System
 
+#### Summary
+
+Some common and useful methods:
+
+`fs.open(path, flags[, mode], callback(err, fd){})`
+
+`fs.stat(path, callback(err, stats){})`
+
+`fs.writeFile(fileName, data[, options], callback(err){})`
+
+`fs.read(fd, buffer, offset, length, position, callback(err, btyesRead, buffer){})`
+
+`fs.close(fd, callback(err){})`
+
+`fs.ftruncate(fd, len, callback(err){})`
+
+`fs.unlink(path, callback(err){})`
+
+`fs.mkdir(path[, mode], callback(err){})`
+
+`fs.readdir(path, callback(err, files){})`
+
+`fs.rmdir(path, callback(err){})`
+
 #### Synchronous vs Asynchronous
 
 Asynchronous:
@@ -134,7 +158,7 @@ See [truncateFile.js](truncateFile.js)
 
 Syntax: 
 
-`fs.unlink`(path, callback(err){})`
+`fs.unlink(path, callback(err){})`
 
 Paramters:
 
