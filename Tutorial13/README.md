@@ -20,7 +20,7 @@ Enter `http://localhost:8888/index.htm` on browser to check the output.
 
 `req.end();`
 
-Note that the `response` argument in the `callback` function seems to be a "Read Stream" instance, which is also an "EventEmitter" instance mentioned in [Tutorial 9](../../tree/Tutorial9/#tutorial-9).
+Note that the `response` argument in the `callback` function seems to be a "Read Stream" instance, which is also an "EventEmitter" instance mentioned in [Tutorial 9](https://github.com/shane030716/node-js/tree/master/Tutorial09#tutorial-9).
 
 See [client.js](client.js)
 
