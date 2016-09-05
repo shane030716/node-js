@@ -2,6 +2,7 @@
 
 Following some Node.js tutorials
 ### List of Tutorials
+* [Tutorial 12](Tutorial12/#tutorial-12) - Utility Modules
 * [Tutorial 11](Tutorial11/#tutorial-11) - Global Objects
 * [Tutorial 10](Tutorial10/#tutorial-10) - File System
 * [Tutorial 9](Tutorial09/#tutorial-9) - Stream
