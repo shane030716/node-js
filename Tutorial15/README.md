@@ -47,10 +47,10 @@ Some key points
 
 Some URLs to try
 
-[http://localhost:8888/listUsers](http://localhost:8888/listUsers)
-[http://localhost:8888/addUser](http://localhost:8888/addUser)
-[http://localhost:8888/2](http://localhost:8888/2)
-[http://localhost:8888/deleteUser/3](http://localhost:8888/deleteUser/3)
+* [http://localhost:8888/listUsers](http://localhost:8888/listUsers)
+* [http://localhost:8888/addUser](http://localhost:8888/addUser)
+* [http://localhost:8888/2](http://localhost:8888/2)
+* [http://localhost:8888/deleteUser/3](http://localhost:8888/deleteUser/3)
 
 
 
