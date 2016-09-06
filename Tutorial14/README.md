@@ -69,6 +69,8 @@ Use `req.query.first_name` to get query string values from get requests.
 
 Recall `JSON.stringify(:)`
 
+See [get_method.js](get_method.js)
+
 #### Post Method
 
 Need to use `body-parser` module to create an `application/x-www-form-urlencoded` parser.
@@ -86,6 +88,8 @@ app.post('/process_post', 'urlencodedParser', function(req, res) {
 ```
 
 For post requests, use `req.body.first_name` to get the form value
+
+See [post_method.js](post_method.js)
 
 #### File Upload
 
