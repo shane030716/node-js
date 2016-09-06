@@ -35,9 +35,9 @@ deleteUser | DELETE | JSON String | Delete an existing user.
 
 Don't forget to install `express` and `body-parser`
 
-Some key points
-
 See [server.js](server.js)
+
+Some key points
 
 * `JSON.parse(data)`
 * `JSON.stringify(data)`
