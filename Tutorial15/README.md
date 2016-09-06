@@ -37,6 +37,8 @@ Don't forget to install `express` and `body-parser`
 
 Some key points
 
+See [server.js](server.js)
+
 * `JSON.parse(data)`
 * `JSON.stringify(data)`
 * params `/:id`
