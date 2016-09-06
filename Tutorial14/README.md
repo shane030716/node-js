@@ -31,6 +31,7 @@ npm install multer --save
 #### Hello World Example
 
 See [server.js](server.js)
+*(Question: when to use `http.createServer(callback).listen(port)` and when to use `express().listen(port, callback)`?)*
 
 #### Request & Response
 
