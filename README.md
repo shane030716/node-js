@@ -2,6 +2,7 @@
 
 Following some Node.js tutorials
 ### List of Tutorials
+* [Tutorial 17](Tutorial17/#tutorial-17) - Packaging using JXcore
 * [Tutorial 16](Tutorial16/#tutorial-16) - Scaling Application (The child_process Module)
 * [Tutorial 15](Tutorial15/#tutorial-15) - RESTful API
 * [Tutorial 14](Tutorial14/#tutorial-14) - Express Framework
