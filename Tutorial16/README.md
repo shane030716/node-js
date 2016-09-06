@@ -1,6 +1,6 @@
 # Tutorial 16
 
-### Scaling Application - child_process module
+### Scaling Application - the child_process module
 
 Node.js runs in a single thread mode but it uses an event-driven paradigm to handle concurrency. It also facilitates creation of child processes to leverage parallel processing on multi-core cpu based systems.
 
@@ -9,7 +9,7 @@ Child process always have three streams (remember streams are EventEmitters too)
 Node provides `child_process` module which has the following three major ways to create child process.
 
 * `exec` - `child_process.exec` method runs a command in a shell/console and buffers the output
-* `spawn` - `child_process.exec` launches a new process with a given command
+* `spawn` - `child_process.spawn` launches a new process with a given command
 * `fork` - The `child_process.fork` method is a special case of the `spawn()` to create child processes.
 
 #### The exec() method

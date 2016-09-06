@@ -2,6 +2,7 @@
 
 Following some Node.js tutorials
 ### List of Tutorials
+* [Tutorial 16](Tutorial15/#tutorial-16) - Scaling Application (The child_process Module)
 * [Tutorial 15](Tutorial15/#tutorial-15) - RESTful API
 * [Tutorial 14](Tutorial14/#tutorial-14) - Express Framework
 * [Tutorial 13](Tutorial13/#tutorial-13) - Web Module
