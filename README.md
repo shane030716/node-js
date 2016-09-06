@@ -16,7 +16,7 @@ Following some Node.js tutorials
 * [Tutorial 6](Tutorial06/#tutorial-6) - Event Loop
 * [Tutorial 5](Tutorial05/#tutorial-5) - Callback 
 * [Tutorial 4](Tutorial04/#tutorial-4) - Node Package Manager (npm)
-* [Tutorial 3](Tutorial03/#tutorial-3) - REPL
+* [Tutorial 3](Tutorial03/#tutorial-3) - REPL & Debugging
 * [Tutorial 2](Tutorial02/#tutorial-2) - server.js
 * [Tutorial 1](Tutorial01/#tutorial-1) - Hello World
 
