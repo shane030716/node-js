@@ -1,9 +1,9 @@
 var express = require("express");
 var app = express();
-var bodyParse = require('body-parser');
+var bodyParser = require('body-parser');
 
 // Create application/x-www-form-urlencoded parser
-var urlencodedParser = bodyParse.urlencoded( {extended: false});
+var urlencodedParser = bodyParser.urlencoded( {extended: false});
 
 app.use(express.static("public"));
 

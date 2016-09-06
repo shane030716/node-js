@@ -71,10 +71,10 @@ Recall `JSON.stringify(:)`
 
 #### Post Method
 
-Need to use `body-parser` module to create an `application/x-www-form-urlencoded` parse.
+Need to use `body-parser` module to create an `application/x-www-form-urlencoded` parser.
 
 ```
-var bodyParse = require('body-parse');
+var bodyParser = require('body-parser');
 var urlencodedParser = bodyParser.urlencoded({extended: false});
 ```
 
